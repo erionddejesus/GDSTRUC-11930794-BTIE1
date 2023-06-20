@@ -40,10 +40,6 @@ public class Main {
         CardStack hand = new CardStack(5);
         int currentNumberOfItemsInHand = hand.getNumberOfItems();
 
-        //I made drawing a card be the first action because since the actions are random,
-        //the first action can sometimes be discard or draw from discard pile when there are no cards there
-        //just informing you sir
-
         //-------------------------------------------------
         //This marks the beginning of the core loop
         while (!deck.isEmpty())
