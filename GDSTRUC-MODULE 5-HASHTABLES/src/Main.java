@@ -10,6 +10,7 @@ public class Main {
         Player jared = new Player (6, "Jared");
         Player ollie = new Player (7, "ollihuan");
 
+        //make the hashtable
         Hashtable hashtable = new Hashtable();
 
         hashtable.put(stellar.getPlayerName(), stellar);
